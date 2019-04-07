@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id = "car" class="com.springioc.autowire.bytype.xmlconfig.Car">
+<property name="name" value="Amandeep Singh"></property>
+<property name="cost" value = "20843793"></property>
+</bean>
+
+<bean id="user" class="com.springioc.autowire.bytype.xmlconfig.User" autowire="byType"></bean>
+</beans>
